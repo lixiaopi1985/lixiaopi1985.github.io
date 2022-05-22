@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://github.com/lixiaopi1985/lixiaopi1985.github.io/sitemap.xml
