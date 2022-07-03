@@ -5,12 +5,20 @@
     <link>https://lixiaopi1985.github.io/event/</link>
       <atom:link href="https://lixiaopi1985.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Feb 2021 13:00:15 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jun 2022 13:00:15 -0400</lastBuildDate>
     <image>
       <url>https://lixiaopi1985.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://lixiaopi1985.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Amplicon sequencing with MinION and Illumina - A Personal Experience</title>
+      <link>https://lixiaopi1985.github.io/talk/amplicon-sequencing-with-minion-and-illumina-a-personal-experience/</link>
+      <pubDate>Fri, 10 Jun 2022 13:00:15 -0400</pubDate>
+      <guid>https://lixiaopi1985.github.io/talk/amplicon-sequencing-with-minion-and-illumina-a-personal-experience/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Plant Microbiome &amp; How to Study It With High Throughput Sequencing</title>

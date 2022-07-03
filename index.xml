@@ -5,12 +5,20 @@
     <link>https://lixiaopi1985.github.io/</link>
       <atom:link href="https://lixiaopi1985.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Raindrops in the ocean</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jun 2022 13:00:15 -0400</lastBuildDate>
     <image>
       <url>https://lixiaopi1985.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Raindrops in the ocean</title>
       <link>https://lixiaopi1985.github.io/</link>
     </image>
+    
+    <item>
+      <title>Amplicon sequencing with MinION and Illumina - A Personal Experience</title>
+      <link>https://lixiaopi1985.github.io/talk/amplicon-sequencing-with-minion-and-illumina-a-personal-experience/</link>
+      <pubDate>Fri, 10 Jun 2022 13:00:15 -0400</pubDate>
+      <guid>https://lixiaopi1985.github.io/talk/amplicon-sequencing-with-minion-and-illumina-a-personal-experience/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cDNA Transcriptome of Arabidopsis Reveals Various Defense Priming Induced by a Broad-Spectrum Biocontrol Agent Burkholderia sp. SSG</title>
@@ -177,6 +185,39 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://lixiaopi1985.github.io/slides/presentation_slides/test_slides/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://lixiaopi1985.github.io/slides/presentation_slides/test_slides/</guid>
+      <description>&lt;h2 id=&#34;amplicon-sequencing-using-minion-vs-illumina---a-personal-experience&#34;&gt;Amplicon Sequencing using MinION vs Illumina - A Personal Experience&lt;/h2&gt;
+&lt;h3 id=&#34;xiaoping-li&#34;&gt;Xiaoping Li&lt;/h3&gt;
+&lt;h4 id=&#34;june-10-2022&#34;&gt;June 10, 2022&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./nanpore.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 </description>
     </item>
     
