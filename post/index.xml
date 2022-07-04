@@ -5,7 +5,7 @@
     <link>https://lixiaopi1985.github.io/post/</link>
       <atom:link href="https://lixiaopi1985.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lixiaopi1985.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,11 +13,27 @@
     </image>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://lixiaopi1985.github.io/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://lixiaopi1985.github.io/post/getting-started/</guid>
-      <description>&lt;h1 id=&#34;post-demo&#34;&gt;post demo&lt;/h1&gt;
+      <title>Hands-On Nanopore MinION sequencer</title>
+      <link>https://lixiaopi1985.github.io/post/handsonminion/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://lixiaopi1985.github.io/post/handsonminion/</guid>
+      <description>&lt;p&gt;Nanopore MinION flowcell is a sequencing device smaller than your cellphone, while more expensive (you are looking at $700-$900 a piece). There are a few pros and cons based on my experience:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Very easy to load the library to the flowcell (However, the preparation of the library could be hectic and involves tedious steps). &lt;strong&gt;First&lt;/strong&gt;, open the priming port cover and make sure there are no air bubbles in the duct (if there are any, suck the bubbles out following the instructions). &lt;strong&gt;Second&lt;/strong&gt;, load 800 ul of the priming mix through the priming port slowly and steadly with a pipette. &lt;strong&gt;Third&lt;/strong&gt;, open the SpotON cover, this is where you are going to load your libraries into. &lt;strong&gt;Fourth&lt;/strong&gt;, Load another 200 ul of the priming mix through the priming port. &lt;strong&gt;Fifth&lt;/strong&gt;, load your library dropwisely to the SpotON port. &lt;strong&gt;Sixth&lt;/strong&gt;, put the covers back on, and you are good to go! Here is a video for loading library: &lt;a href=&#34;https://youtu.be/Pt-iaemrM88&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The flowcell connects to the MinKNOW software that you use to control the sequencing process. The MinKNOW software interface is very clean and simple to use.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Cons&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The storage of flowcell is short, only for 3 months, therefore you need to plan the sequencing carefully.&lt;/li&gt;
+&lt;li&gt;During sequencing, the heat produced by the flowcell and other chemical reactions will induced bubbles on the sensor array, which will jeopardize the longevity of the flowcell inevitably. Therefore, the longer the sequencing time, the more bubbles you would observe in the sensor array. And these bubbles can not be removed through following washing steps.&lt;/li&gt;
+&lt;li&gt;Although the MinION interface is simple and easy to navigate, it could be problematic when it connects to GUPPY software, a gigantic helper for faciliate basecalling using GPU powers. Because certain MinKNOW version is only compatible to certain GUPPY version, you need to keep up with the software updates and with some hacking skills in Linux environment to twitch it. These are not done automatically. I hope Nanopore can integrate GUPPY GPU to the MinKNOW software.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Overall, MinION is a convenient and light weight sequencing devise suitable for many research scenarios. However, the flowcell and related software need improvement.&lt;/p&gt;
 </description>
     </item>
     

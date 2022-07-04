@@ -5,12 +5,37 @@
     <link>https://lixiaopi1985.github.io/</link>
       <atom:link href="https://lixiaopi1985.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Raindrops in the ocean</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jun 2022 13:00:15 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lixiaopi1985.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Raindrops in the ocean</title>
       <link>https://lixiaopi1985.github.io/</link>
     </image>
+    
+    <item>
+      <title>Hands-On Nanopore MinION sequencer</title>
+      <link>https://lixiaopi1985.github.io/post/handsonminion/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://lixiaopi1985.github.io/post/handsonminion/</guid>
+      <description>&lt;p&gt;Nanopore MinION flowcell is a sequencing device smaller than your cellphone, while more expensive (you are looking at $700-$900 a piece). There are a few pros and cons based on my experience:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Very easy to load the library to the flowcell (However, the preparation of the library could be hectic and involves tedious steps). &lt;strong&gt;First&lt;/strong&gt;, open the priming port cover and make sure there are no air bubbles in the duct (if there are any, suck the bubbles out following the instructions). &lt;strong&gt;Second&lt;/strong&gt;, load 800 ul of the priming mix through the priming port slowly and steadly with a pipette. &lt;strong&gt;Third&lt;/strong&gt;, open the SpotON cover, this is where you are going to load your libraries into. &lt;strong&gt;Fourth&lt;/strong&gt;, Load another 200 ul of the priming mix through the priming port. &lt;strong&gt;Fifth&lt;/strong&gt;, load your library dropwisely to the SpotON port. &lt;strong&gt;Sixth&lt;/strong&gt;, put the covers back on, and you are good to go! Here is a video for loading library: &lt;a href=&#34;https://youtu.be/Pt-iaemrM88&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The flowcell connects to the MinKNOW software that you use to control the sequencing process. The MinKNOW software interface is very clean and simple to use.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Cons&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The storage of flowcell is short, only for 3 months, therefore you need to plan the sequencing carefully.&lt;/li&gt;
+&lt;li&gt;During sequencing, the heat produced by the flowcell and other chemical reactions will induced bubbles on the sensor array, which will jeopardize the longevity of the flowcell inevitably. Therefore, the longer the sequencing time, the more bubbles you would observe in the sensor array. And these bubbles can not be removed through following washing steps.&lt;/li&gt;
+&lt;li&gt;Although the MinION interface is simple and easy to navigate, it could be problematic when it connects to GUPPY software, a gigantic helper for faciliate basecalling using GPU powers. Because certain MinKNOW version is only compatible to certain GUPPY version, you need to keep up with the software updates and with some hacking skills in Linux environment to twitch it. These are not done automatically. I hope Nanopore can integrate GUPPY GPU to the MinKNOW software.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Overall, MinION is a convenient and light weight sequencing devise suitable for many research scenarios. However, the flowcell and related software need improvement.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Amplicon sequencing with MinION and Illumina - A Personal Experience</title>
@@ -44,6 +69,18 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
+      <title>Boxwood foliage microbiome projects</title>
+      <link>https://lixiaopi1985.github.io/project/boxwoodmicrobiome/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://lixiaopi1985.github.io/project/boxwoodmicrobiome/</guid>
+      <description>&lt;p&gt;The utimate goal of boxwood foliage microbiome projects is to utilize microbiome power for enhancement of boxwood fitness against boxwood blight pathogen &lt;em&gt;Calonectria pseudonaviculata&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;These projects will evaluate the impacts of location, antidesiccant, fungicide, irrigation, fertilizer, etc on boxwood foliage microbiome. The results of these studies will reveal &amp;ldquo;what&amp;rdquo; constitute boxwood foliage microbiome and &amp;ldquo;how&amp;rdquo; they contribute to the boxwood defense mechanisms against the blight pathogen.&lt;/p&gt;
+&lt;p&gt;A comprehensive understanding of boxwood foliage microbiome interacting with boxwood and the blight pathogen will provide us several applications in disease management: 1) Optimize current intensified management practices in boxwood production to maximize the retention of beneficial microbes on boxwood plants, 2) Devise synthetic microbial communities (SynComs) to aid boxwood defense against the blight pathogen, 3) Elect potential individuals with biological control activities for specficially targeting and suppressing the pathogen.&lt;/p&gt;
+&lt;p&gt;With the interaction of microbe, plant host, and pathogen ever becoming more elucidate, the use of microbiome in sustainable agriculture and horticulture is attractive and promising.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Plant Microbiome &amp; How to Study It With High Throughput Sequencing</title>
       <link>https://lixiaopi1985.github.io/talk/the-plant-microbiome-how-to-study-it-with-high-throughput-sequencing/</link>
       <pubDate>Fri, 12 Feb 2021 13:00:15 -0400</pubDate>
@@ -51,15 +88,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
       <description>&lt;script src=&#34;https://fast.wistia.com/embed/medias/nix81fah5h.jsonp&#34; async=&#34;&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://fast.wistia.com/assets/external/E-v1.js&#34; async=&#34;&#34;&gt;&lt;/script&gt;
 &lt;div class=&#34;wistia_embed wistia_async_nix81fah5h&#34; style=&#34;height:349px;width:620px&#34;&gt;&amp;nbsp;&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://lixiaopi1985.github.io/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://lixiaopi1985.github.io/post/getting-started/</guid>
-      <description>&lt;h1 id=&#34;post-demo&#34;&gt;post demo&lt;/h1&gt;
 </description>
     </item>
     
@@ -241,19 +269,6 @@ $$&lt;/p&gt;
 
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://lixiaopi1985.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://lixiaopi1985.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
